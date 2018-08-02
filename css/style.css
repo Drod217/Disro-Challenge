@@ -1,6 +1,16 @@
-.nav {
-  box-shadow: 3px 3px 5px 6px #ccc;
-  height: 70px;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.top {
+  box-shadow: 0px 3px 5px 3px #ccc;
+  height: auto;
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
 }
 
 .nav-left {
@@ -14,13 +24,16 @@
   background-color: #fff;
 }
 .nav-funds {
+  font-size: 25px;
+  height: 100%;
   color: white;
-  padding: 23px;
   font-weight: 800;
-
   background-color: #5d8;
+  border-color: #5d8;
+  border-radius: 0;
 }
 .nav-balance {
+  font-size: 30px;
   font-weight: 700;
   background-color: #fff;
 }
@@ -63,8 +76,3 @@
   width: auto;
   height: auto;
 }
-
-/* .show {
-  color: #aac;
-  background-color: #223;
-} */
