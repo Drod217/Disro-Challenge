@@ -58,9 +58,12 @@ body {
 
 .card-body {
   box-shadow: 0px 6px 8px 0px #ccc;
-  width: 200px;
+  width: 100vw;
+  width: 100%;
   background-color: #223;
   color: #aac;
+  height: 10vh;
+  border-top: 5px solid #334;
 }
 
 #infinity {
@@ -74,19 +77,16 @@ body {
   height: auto;
 }
 
-.card-adjust {
-  width: 100%;
-}
-
 .card-margin {
-  margin-left: 30px;
+  width: 100vw;
+  /* margin-left: 10px; */
   padding-top: 8vh;
 }
-
 .wrapper {
   padding-bottom: 2vh;
   display: flex;
   flex-direction: row;
+  margin-left: 30px;
 }
 
 #icons {
