@@ -62,7 +62,7 @@ body {
   width: 100%;
   background-color: #223;
   color: #aac;
-  height: 10vh;
+  height: 16vh;
   border-top: 5px solid #334;
 }
 
@@ -99,11 +99,15 @@ body {
   .funds,
   .nav-left,
   .nav-funds,
-  .nav-profile {
+  .nav-profile,
+  #infinity {
     display: none;
   }
 
   .dropGames {
+    text-align: left;
+    height: 8vh;
+    font-size: 3vh;
     margin-left: -5.4px;
     width: 97vw;
   }
